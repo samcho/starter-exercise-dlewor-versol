@@ -10,7 +10,6 @@ public class Dlewor_Versol {
 
         // use first command line argument to open dictionary file,
         // gracefully exits if no file
-        // use second command line argument for linear or binary search
         if (args.length == 1) {
             filename = args[0];
             try {
